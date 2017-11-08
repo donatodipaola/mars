@@ -37,7 +37,7 @@ ymax = SimCore.World.L/2;
 %-------------------------------------------------------------------------%
 
 viz.f = figure(); clf;
-set(viz.f,'name','MARS - 0.1','numbertitle','off')
+set(viz.f,'name','MARS','numbertitle','off')
 set(viz.f,'doublebuffer','on','position',[winPosX winPosY winSizeX winSizeY],'color',[1 1 1]);
 
 viz.axs = axes('position',[.1 .1 .8 .8]);
