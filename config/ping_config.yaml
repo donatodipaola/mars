@@ -1,0 +1,25 @@
+simulation:
+    simulation_time_horizon : 10
+    environment :
+        environment_object_collection :
+            - environment_object :
+                name : 'CommunicationNetwork'
+                parameters :
+                    - ['A', 'B']
+    agents :
+        task : 'Ping'
+        agent_collection :
+            - agent :
+                identifier : 'A'
+                device_collection :
+                    - device :
+                        name : 'CommunicationSystem'
+                task_parameters :
+                    - 'ping'
+            - agent :
+                identifier : 'B'
+                device_collection :
+                    - device :
+                        name : 'CommunicationSystem'
+                task_parameters :
+                    - 'pong'

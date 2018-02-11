@@ -1,0 +1,20 @@
+simulation:
+    simulation_time_horizon : 35
+    agents :
+        task : 'Counter'
+        agent_collection :
+            - agent :
+                identifier : 'A'
+                task_parameters :
+                    - 0
+                    - 10
+            - agent :
+                identifier : 'B'
+                task_parameters :
+                    - 0
+                    - 20
+            - agent :
+                identifier : 'C'
+                task_parameters :
+                    - 0
+                    - 30

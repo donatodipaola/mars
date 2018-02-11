@@ -1,0 +1,27 @@
+simulation:
+    simulation_time_horizon : 10
+    environment :
+        environment_object_collection :
+            - environment_object :
+                name : 'CommunicationNetwork'
+                parameters :
+                    - ['A', 'B']
+    agents :
+        task : 'AverageConsensus'
+        agent_collection :
+            - agent :
+                identifier : 'A'
+                device_collection :
+                    - device :
+                        name : 'CommunicationSystem'
+                task_parameters :
+                    - 15.0
+                    - 0.5
+            - agent :
+                identifier : 'B'
+                device_collection :
+                    - device :
+                        name : 'CommunicationSystem'
+                task_parameters :
+                    - 5.0
+                    - 0.5
