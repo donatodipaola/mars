@@ -1,9 +1,9 @@
 import yaml
 from pathlib import Path
 
-from core import *
-from tasks import *
-from devices import *
+from mars.core import *
+from mars.tasks import *
+from mars.devices import *
 
 
 class Builder(object):

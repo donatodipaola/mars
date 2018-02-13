@@ -2,8 +2,8 @@
 
 import unittest
 
-from core import *
-from tasks import DummyTask
+from mars.core import *
+from mars.tasks import DummyTask
 
 
 class AgentTestCase(unittest.TestCase):

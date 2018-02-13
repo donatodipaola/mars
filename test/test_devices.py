@@ -2,8 +2,8 @@
 
 import unittest
 
-from core import Logger
-from devices import *
+from mars.core import Logger
+from mars.devices import *
 
 
 class DeviceFactoryTestCase(unittest.TestCase):

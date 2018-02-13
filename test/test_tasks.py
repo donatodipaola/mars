@@ -2,9 +2,9 @@
 
 import unittest
 
-from core import Logger
-from tasks import *
-from devices import *
+from mars.core import Logger
+from mars.tasks import *
+from mars.devices import *
 
 
 class TaskFactoryTestCase(unittest.TestCase):

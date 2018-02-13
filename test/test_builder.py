@@ -5,7 +5,7 @@ import unittest
 import io
 import os
 
-from builder import *
+from mars.builder import *
 
 
 def create_configuration_file():

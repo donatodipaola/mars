@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from cli import *
-from builder import *
+from mars.cli import *
+from mars.builder import *
 
 
 def mars():

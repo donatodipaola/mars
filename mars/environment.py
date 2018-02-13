@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from collections import defaultdict
-from core import EnvironmentObject
+from mars.core import EnvironmentObject
 
 
 def get_environment_object_from_collection(object_name, object_collection):

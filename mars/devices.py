@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from core import Device
-from environment import *
+from mars.core import Device
+from mars.environment import *
 
 
 def get_device_from_collection(device_name, device_collection):

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from core import Task
-from devices import *
+from mars.core import Task
+from mars.devices import *
 
 
 class TaskFactory(object):

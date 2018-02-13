@@ -2,8 +2,8 @@
 
 import unittest
 
-from core import Logger
-from environment import *
+from mars.core import Logger
+from mars.environment import *
 
 
 class EnvironmentFactoryTestCase(unittest.TestCase):
