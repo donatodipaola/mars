@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 with open('README.md') as f:
@@ -18,5 +18,6 @@ setup(
     author_email='donatodipaola@gmail.com',
     url='https://gitlab.com/donatodipaola/mars',
     license=license,
-    packages=find_packages(exclude=('test'))
+    packages = ['mars', 'mars.tests'],
+    platforms = ['any']
 )
