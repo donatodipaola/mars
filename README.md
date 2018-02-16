@@ -14,7 +14,7 @@ The Multi-Agent Robotic Simulator (MARS) allows the simulation of group of mobil
 ## Demo
 
 - Launch the command:
-  `python3 mars/mars.py -c config/avg_consensus_config.yaml -v `
+  `python mars/launcher.py -c config/avg_consensus_config.yaml -v `
   ​
 
 ## License
