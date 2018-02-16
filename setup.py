@@ -18,6 +18,6 @@ setup(
     author_email='donatodipaola@gmail.com',
     url='https://gitlab.com/donatodipaola/mars',
     license=license,
-    packages = ['mars', 'test'],
+    packages = ['mars', 'mars.test'],
     platforms = ['any']
 )
