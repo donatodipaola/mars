@@ -22,7 +22,7 @@ class CommandLineInterface(object):
 
         print(' Multi-Agent Robotic Simulator')
         print(' ')
-        print(' Copyright (c) 2017, Donato Di Paola')
+        print(' Copyright (c) 2018, Donato Di Paola')
         print(' Released under BSD 3-Clause License')
         print(' ')
 
