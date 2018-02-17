@@ -6,7 +6,7 @@
 A simulator for multi agent robotic systems
 
 [![Build Status](https://travis-ci.org/donatodipaola/mars.svg?branch=master)](https://travis-ci.org/donatodipaola/mars)
-
+[![Coverage Status](https://coveralls.io/repos/github/donatodipaola/mars/badge.svg?branch=master)](https://coveralls.io/github/donatodipaola/mars?branch=master)
 
 The Multi-Agent Robotic Simulator (MARS) allows the simulation of group of mobile robotic agents.
 
