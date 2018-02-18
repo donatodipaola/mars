@@ -6,7 +6,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - coverage run --source=mars setup.py test
+  - coverage run --source=mars --omit=mars/test/* setup.py test
 
 after_success:
   - coveralls  
