@@ -1,4 +1,4 @@
 pathlib
 colorama
 pyyaml
-python-coveralls
+coveralls
